@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HASTHAM 2.0</title>
+</head>
+<body>
+<h3 class="heading">KSITM Alappuzha Video Application(work in progress)</h3>
+<div class="container">
+    <div class="main-video">
+        <div class="video">
+            <video src="video/Legal_Heirship training 20_05_22.mkv" controls muted autoplay></video>
+            <h3 class="title">1.Legal Heirship Training  </h3>
+
+        </div>
+    </div>
+    <div class="video-list">
+        <div class="vid active">
+            <video src="video/Legal_Heirship training 20_05_22.mkv" muted ></video>
+            <h3 class="title">2.Tutorial 2 </h3>
+        </div>
+        <div class="vid">
+            <video src="video/Legal_Heirship training 20_05_22.mkv" muted ></video>
+            <h3 class="title">3.Tutorial 3 </h3>
+        </div>
+        <div class="vid">
+            <video src="video/Legal_Heirship training 20_05_22.mkv" muted ></video>
+            <h3 class="title">4.Tutorial 4 </h3>
+        </div>
+        <div class="vid">
+            <video src="video/Legal_Heirship training 20_05_22.mkv" muted ></video>
+            <h3 class="title">5.Tutorial 5 </h3>
+        </div>
+        <div class="vid">
+            <video src="video/Legal_Heirship training 20_05_22.mkv" muted ></video>
+            <h3 class="title">6.Tutorial 6 </h3>
+        </div>
+        <div class="vid">
+            <video src="video/Legal_Heirship training 20_05_22.mkv" muted ></video>
+            <h3 class="title">7.Tutorial 7 </h3>
+        </div>
+        <div class="vid">
+            <video src="video/Legal_Heirship training 20_05_22.mkv" muted ></video>
+            <h3 class="title">8.Tutorial 8 </h3>
+        </div>
+    </div>
+</div>
+<script>
+    let listVideo = document.querySelectorAll('.video-list .vid'); 
+    let mainVideo = document.querySelector('.main-video video');
+    let title = document.querySelector('.main-video .title');
+    listVideo.forEach(video =>{
+     video.onclick =() =>{
+         listVideo.forEach(vid => vid.classList.remove('active'));
+         video.classList.add('active');
+         if(video.classList.contains('active')){
+             let src = video.children[0].getAttribute('src');
+             mainVideo.src =src;
+             let text =video.children[1].innerHTML;
+             title.innerHTML= text;
+
+         };
+     };
+    });
+</script>
+
+</body>
+</html>
