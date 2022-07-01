@@ -1,10 +1,11 @@
-Test live: https://raghavdhinrga.web.app
+Developers favourite operating system Linux(UBUNTU) is now available for Web.Thank you Raghvdhingra for the Development support for this proect.
+<!-- Test live: https://raghavdhinrga.web.app
 
-Production build: https://raghavdhingra.com
+Production build: https://raghavdhingra.com -->
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Developers favourite operating system Linux is now available for Web. Check out linux based portfolio here - https://raghavdhingra.com
+<!-- Developers favourite operating system Linux is now available for Web. Check out linux based portfolio here - https://raghavdhingra.com -->
 
 ## Available Scripts
 

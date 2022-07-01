@@ -13,7 +13,7 @@ const OutputDivision = ({ inputPath, command, error, success, startState }) => {
     return (
       <>
         <div className="terminal-main-content terminal-blue">
-          Welcome to Web OS
+          Welcome to KSITM Alappuzha
         </div>
         <div className="terminal-output">Type "help" for all the commands</div>
       </>
@@ -21,7 +21,7 @@ const OutputDivision = ({ inputPath, command, error, success, startState }) => {
 
   return (
     <div className="terminal-main-content">
-      <span className="terminal-green">raghavdhingra@web-os: </span>
+      <span className="terminal-green">Ksitm@Alp: </span>
       <span className="terminal-blue">{inputPath}$ </span>
       <span className="terminal-text-editor">{command}</span>
       {error && <div className="terminal-output terminal-red">{error}</div>}
@@ -269,9 +269,21 @@ const TerminalWindow = ({
       invoke: 'help',
       onActive: HelpTerminal,
       description:
-        'Return the list of commands that you can run on terminal | No parameter',
+        'Return the list of commands that you can run on terminal ',
     },
     {
+      invoke: 'eDistrict',
+       onActive: HelpTerminal,
+      description:
+        'Kerala E-District project intend to provide Government services to citizens through Common Service Centers(CSC) which are easily accessible.most of the Government to Citizen (G2C) interactions are taken place at District level. Districts, thus act as front-end windows of Government...',
+    },
+    {
+      invoke: 'eOffice',
+       onActive: HelpTerminal,
+      description:
+        'eOffice is a web application enabling the Government to automate the entire work flow of file processing starting from Tapal creation, File Creation, File processing and issuing orders from the file.',
+    },
+    {/*{
       invoke: 'ls',
       onActive: listInDirectory,
       description:
@@ -314,7 +326,7 @@ const TerminalWindow = ({
       invoke: 'reset',
       onActive: resetCommand,
       description: 'Resets everything (settings and file system)',
-    },
+    */},
     {
       invoke: 'exit',
       onActive: exitTerminal,
@@ -378,7 +390,7 @@ const TerminalWindow = ({
           ))}
         </div>
         <div className="terminal-main-content">
-          <span className="terminal-green">raghavdhingra@web-os: </span>
+          <span className="terminal-green">Ksitm@Alp: </span>
           <span className="terminal-blue">{inputPath}$ </span>
           <span
             contentEditable={true}

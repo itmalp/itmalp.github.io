@@ -2,6 +2,9 @@ import * as actions from "../actions/types";
 import PROFILE_IMAGE from "../assets/icons/profile.svg";
 import PROJECT_IMAGE from "../assets/icons/project.svg";
 import ARCHIVE_IMAGE from "../assets/icons/archive.svg";
+import firefox from "../assets/icons/browser.svg";
+import dc from '../assets/icons/downcenter.svg';
+import watch from '../assets/icons/watch.svg';
 
 const initialState = {
   fileSystem: [
@@ -10,35 +13,69 @@ const initialState = {
       type: "folder",
       location: [],
       child: [
+        // {
+        //   name: "Portfolio",
+        //   type: "file",
+        //   icon: PROFILE_IMAGE,
+        //   link: "https://portfolio.raghavdhingra.com",
+        //   inPage: true,
+        //   location: ["desktop"],
+        // },
+        // {
+        //   name: "Projects",
+        //   type: "file",
+        //   icon: PROJECT_IMAGE,
+        //   link: "https://portfolio.raghavdhingra.com/projects",
+        //   inPage: true,
+        //   location: ["desktop"],
+        // },
+       
         {
-          name: "Portfolio",
-          type: "file",
-          icon: PROFILE_IMAGE,
-          link: "https://portfolio.raghavdhingra.com",
-          inPage: true,
-          location: ["desktop"],
-        },
-        {
-          name: "Projects",
-          type: "file",
-          icon: PROJECT_IMAGE,
-          link: "https://portfolio.raghavdhingra.com/projects",
-          inPage: true,
-          location: ["desktop"],
-        },
-        {
-          name: "Archive",
+          name: "eDistrict",
           type: "file",
           icon: ARCHIVE_IMAGE,
-          link: "https://archive.raghavdhingra.com",
+          link: "https://village.ksitmalappuzha.in",
           inPage: false,
           location: ["desktop"],
         },
-        { name: "Docs", type: "file", child: "", location: ["desktop"] },
+        {
+          name: "eOffice",
+          type: "file",
+          icon: ARCHIVE_IMAGE,
+          link: "https://eoffice.ksitmalappuzha.in",
+          inPage: false,
+          location: ["desktop"],
+        },
+        
+        {
+          name: "Firefox",
+          type: "file",
+          icon: firefox,
+          link: "https://ksitmalappuzha.in/theekurukkan",
+          inPage: false,
+          location: ["desktop"],
+        },
+        {
+          name:"DC",
+          type: "file",
+          icon: dc,
+          link: "https://downcenter.ksitmalappuzha.in/",
+          inPage: false,
+          location: ["desktop"],
+        },
+        {
+          name:"Timeline",
+          type: "file",
+          icon: watch,
+          link: "https://ksitmalappuzha.in/timeline",
+          inPage: false,
+          location: ["desktop"],
+        },
+        // { name: "docs", type: "file", child: "", location: ["desktop"] },
       ],
     },
     {
-      name: "raghavdhingra",
+      name: "ksitmalp",
       type: "folder",
       child: [],
       location: [],

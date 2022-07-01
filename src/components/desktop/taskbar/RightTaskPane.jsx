@@ -42,7 +42,7 @@ const RightTaskPane = ({
       navigator.mozConnection ||
       navigator.webkitConnection;
 
-    networkType(connection ? connection.effectiveType : '4g');
+    networkType(connection ? connection.effectiveType : 'Ksitm Alp');
 
     // date status
     dateStatus(new Date());

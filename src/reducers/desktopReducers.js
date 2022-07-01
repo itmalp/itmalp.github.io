@@ -13,7 +13,7 @@ const initialState = {
     charging: false,
   },
   isOnline: true,
-  networkType: "4g",
+  networkType: "Ksitm Alp",
   date: new Date(),
   activityDropDown: false,
   powerOff: {

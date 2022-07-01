@@ -70,14 +70,14 @@ const DesktopWorkingArea = ({
   const contextArray = [
     { name: 'Menu', onClick: () => changeStartMenu(!isStartMenuOpen) },
     { name: 'Terminal', onClick: () => createActivity({ name: 'terminal' }) },
-    {
-      name: 'New File',
-      onClick: () => setNewDir({ open: true, isFolder: false, name: '' }),
-    },
-    {
-      name: 'New Folder',
-      onClick: () => setNewDir({ open: true, isFolder: true, name: '' }),
-    },
+    // {
+    //   name: 'New File',
+    //   onClick: () => setNewDir({ open: true, isFolder: false, name: '' }),
+    // },
+    // {
+    //   name: 'New Folder',
+    //   onClick: () => setNewDir({ open: true, isFolder: true, name: '' }),
+    // },
     {
       name: 'Customise Display',
       onClick: () => createActivity({ name: 'settings' }),
