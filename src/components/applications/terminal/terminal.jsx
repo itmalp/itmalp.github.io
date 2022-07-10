@@ -283,54 +283,12 @@ const TerminalWindow = ({
       description:
         'eOffice is a web application enabling the Government to automate the entire work flow of file processing starting from Tapal creation, File Creation, File processing and issuing orders from the file.',
     },
-    {/*{
-      invoke: 'ls',
-      onActive: listInDirectory,
-      description:
-        'Return the list of all files and folder in current or specified directory | One parameter (optional)',
-    },
-    {
-      invoke: 'clear',
-      onActive: clearScreen,
-      description: 'Clears the terminal | No parameters',
-    },
-    {
-      invoke: 'echo',
-      onActive: echoOnScreen,
-      description: 'Prints the word or the line on the terminal',
-    },
-    {
-      invoke: 'cd',
-      onActive: changeDirectory,
-      description:
-        'Change the directory of the terminal | One parameter (required)',
-    },
-    {
-      invoke: 'mkdir',
-      onActive: makeDirectory,
-      description:
-        'Make a directory within current folder | One parameter (required)',
-    },
-    {
-      invoke: 'rm',
-      onActive: removeDirectory,
-      description:
-        'Remove a directory within current folder | One parameter (required)',
-    },
-    {
-      invoke: 'pwd',
-      onActive: pwdCommand,
-      description: 'Returns the working directory of the terminal',
-    },
-    {
-      invoke: 'reset',
-      onActive: resetCommand,
-      description: 'Resets everything (settings and file system)',
-    */},
+    
+   
     {
       invoke: 'exit',
       onActive: exitTerminal,
-      description: 'Exits the terminal | No parameters',
+      description: 'Exits the terminal',
     },
   ];
 

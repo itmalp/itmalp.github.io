@@ -5,7 +5,7 @@ class Error404 extends Component {
   render() {
     return (
       <>
-        <h1>Security Breach</h1>
+        <h1>We are experiencing Some Technical Issues, We Will be Back to Soon!</h1>
       </>
     );
   }

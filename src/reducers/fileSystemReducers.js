@@ -51,7 +51,7 @@ const initialState = {
           name: "Firefox",
           type: "file",
           icon: firefox,
-          link: "https://ksitmalappuzha.in/theekurukkan",
+          link: "https://theekurukkan.ksitmalappuzha.in",
           inPage: false,
           location: ["desktop"],
         },
