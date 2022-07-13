@@ -5,6 +5,7 @@ import ARCHIVE_IMAGE from "../assets/icons/archive.svg";
 import firefox from "../assets/icons/browser.svg";
 import dc from '../assets/icons/downcenter.svg';
 import watch from '../assets/icons/watch.svg';
+import calendar from '../assets/icons/calendar.svg';
 
 const initialState = {
   fileSystem: [
@@ -68,6 +69,14 @@ const initialState = {
           type: "file",
           icon: watch,
           link: "https://ksitmalappuzha.in/timeline",
+          inPage: false,
+          location: ["desktop"],
+        },
+        {
+          name:"Calendar",
+          type: "file",
+          icon: calendar,
+          link: "https://calendar.ksitmalappuzha.in/",
           inPage: false,
           location: ["desktop"],
         },
