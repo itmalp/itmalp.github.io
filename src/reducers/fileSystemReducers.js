@@ -68,7 +68,7 @@ const initialState = {
           name:"Timeline",
           type: "file",
           icon: watch,
-          link: "https://ksitmalappuzha.in/timeline",
+          link: "https://events.ksitmalappuzha.in/",
           inPage: false,
           location: ["desktop"],
         },

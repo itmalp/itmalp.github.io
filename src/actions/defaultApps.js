@@ -8,6 +8,7 @@ import Camera from '../components/applications/camera/camera';
 import Browser from '../components/applications/browser/browser';
 import Settings from '../components/applications/settings/settings';
 import timeline from '../assets/icons/view_timeline.svg';
+import  accops from '../assets/icons/accops.svg';
 // import rustdesk from '../assets/icons/Rustdesk.svg';
 
 
@@ -50,7 +51,7 @@ export const applications = {
     //   key: 'rustdesk',
     //   child: (supplement) => <Camera supplement={supplement} />,
     // },
-
+   
     {
       name: 'Settings',
       image: SettingsImage,
@@ -99,6 +100,14 @@ export const applications = {
     //   image: PROJECT_IMAGE,
     //   link: 'https://portfolio.raghavdhingra.com/projects',
     // },
+    {
+      name: 'Accops',
+      key: 'accops',
+      width: width2,
+      bigWidth: width3,
+      image: accops,
+      link: 'https://103.135.130.197',
+    },
     {
       name: 'GitHub',
       key: 'github',
