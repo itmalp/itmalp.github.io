@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b25a3b2c.chunk.css",
-    "main.js": "/static/js/main.33d631f1.chunk.js",
-    "main.js.map": "/static/js/main.33d631f1.chunk.js.map",
+    "main.js": "/static/js/main.36605ba9.chunk.js",
+    "main.js.map": "/static/js/main.36605ba9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.04d7513f.js",
     "runtime-main.js.map": "/static/js/runtime-main.04d7513f.js.map",
     "static/js/2.d7a61173.chunk.js": "/static/js/2.d7a61173.chunk.js",
@@ -34,6 +34,7 @@
     "static/media/setting.664128e7.svg": "/static/media/setting.664128e7.svg",
     "static/media/terminal.e7db1465.svg": "/static/media/terminal.e7db1465.svg",
     "static/media/view_timeline.346cf996.svg": "/static/media/view_timeline.346cf996.svg",
+    "static/media/vmeet.c2aee6b5.svg": "/static/media/vmeet.c2aee6b5.svg",
     "static/media/wall-1.bc11ecc7.svg": "/static/media/wall-1.bc11ecc7.svg",
     "static/media/wall-2.392362fa.svg": "/static/media/wall-2.392362fa.svg",
     "static/media/wall-3.d11f271d.svg": "/static/media/wall-3.d11f271d.svg",
@@ -47,6 +48,6 @@
     "static/js/runtime-main.04d7513f.js",
     "static/js/2.d7a61173.chunk.js",
     "static/css/main.b25a3b2c.chunk.css",
-    "static/js/main.33d631f1.chunk.js"
+    "static/js/main.36605ba9.chunk.js"
   ]
 }
