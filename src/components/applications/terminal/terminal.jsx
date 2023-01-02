@@ -283,6 +283,12 @@ const TerminalWindow = ({
       description:
         'eOffice is a web application enabling the Government to automate the entire work flow of file processing starting from Tapal creation, File Creation, File processing and issuing orders from the file.',
     },
+    {
+      invoke: 'ls',
+      onActive: listInDirectory,
+      description:
+        'Return the list of all files and folder in current or specified directory | One parameter (optional)',
+    },
     
    
     {

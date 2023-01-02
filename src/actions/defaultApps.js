@@ -9,6 +9,7 @@ import Browser from '../components/applications/browser/browser';
 import Settings from '../components/applications/settings/settings';
 import timeline from '../assets/icons/view_timeline.svg';
 import  accops from '../assets/icons/accops.svg';
+import vmeet from '../assets/icons/vmeet.svg';
 // import rustdesk from '../assets/icons/Rustdesk.svg';
 
 
@@ -109,6 +110,14 @@ export const applications = {
       link: 'https://103.135.130.197',
     },
     {
+      name: 'V- MEET',
+      key: 'vmeet',
+      width: width1,
+      bigWidth: width3,
+      image: vmeet,
+      link: 'https://vmeet.kerala.gov.in/login',
+    },
+    {
       name: 'GitHub',
       key: 'github',
       width: width1,
@@ -122,7 +131,7 @@ export const applications = {
       width: width1,
       bigWidth: width3,
       image: GITLAB_IMAGE,
-      link: 'https://github.com/',
+      link: 'https://about.gitlab.com/',
     },
     // {
     //   name: 'Facebook',
