@@ -1,4 +1,4 @@
-Developers favourite operating system Linux(UBUNTU) is now available for Web.Thank you Raghvdhingra for the Development support for this proect.
+Developers favourite operating system Linux(UBUNTU) is now available for Web.Thank you Raghvdhingra for the Development support for this project.
 <!-- Test live: https://raghavdhinrga.web.app
 
 Production build: https://raghavdhingra.com -->
