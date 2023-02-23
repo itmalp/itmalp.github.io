@@ -6,6 +6,7 @@ import firefox from "../assets/icons/browser.svg";
 import dc from '../assets/icons/downcenter.svg';
 import watch from '../assets/icons/watch.svg';
 import calendar from '../assets/icons/calendar.svg';
+import chuttika from '../assets/icons/hammer.png';
 
 const initialState = {
   fileSystem: [
@@ -56,11 +57,22 @@ const initialState = {
           inPage: false,
           location: ["desktop"],
         },
+
+
         {
           name:"DC",
           type: "file",
           icon: dc,
           link: "https://downcenter.ksitmalappuzha.in/",
+          inPage: false,
+          location: ["desktop"],
+        },
+
+        {
+          name:"Chuttika",
+          type: "file",
+          icon: chuttika,
+          link: "https://chuttika.netlify.app/",
           inPage: false,
           location: ["desktop"],
         },
@@ -72,14 +84,15 @@ const initialState = {
           inPage: false,
           location: ["desktop"],
         },
-        {
-          name:"Calendar",
-          type: "file",
-          icon: calendar,
-          link: "https://calendar.ksitmalappuzha.in/",
-          inPage: false,
-          location: ["desktop"],
-        },
+        // {
+        //   name:"Calendar",
+        //   type: "file",
+        //   icon: calendar,
+        //   link: "https://calendar.ksitmalappuzha.in/",
+        //   inPage: false,
+        //   location: ["desktop"],
+        // },
+        
         // { name: "docs", type: "file", child: "", location: ["desktop"] },
       ],
     },

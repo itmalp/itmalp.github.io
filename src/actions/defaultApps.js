@@ -10,14 +10,15 @@ import Settings from '../components/applications/settings/settings';
 import timeline from '../assets/icons/view_timeline.svg';
 import  accops from '../assets/icons/accops.svg';
 import vmeet from '../assets/icons/vmeet.svg';
+import chuttika from '../assets/icons/hammer.png';
 // import rustdesk from '../assets/icons/Rustdesk.svg';
 
 
 // import PROFILE_IMAGE from '../assets/icons/profile.svg';
 // import PROJECT_IMAGE from '../assets/icons/project.svg';
 import ARCHIVE_IMAGE from '../assets/icons/archive.svg';
-import GITHUB_IMAGE from '../assets/icons/octocat.svg';
-import GITLAB_IMAGE from '../assets/icons/gitlab.svg';
+// import GITHUB_IMAGE from '../assets/icons/octocat.svg';
+// import GITLAB_IMAGE from '../assets/icons/gitlab.svg';
 // import FACEBOOK_IMAGE from '../assets/icons/facebook.svg';
 // import TWITTER_IMAGE from '../assets/icons/twitter.svg';
 // import INSTAGRAM_IMAGE from '../assets/icons/instagram.svg';
@@ -118,21 +119,29 @@ export const applications = {
       link: 'https://vmeet.kerala.gov.in/login',
     },
     {
-      name: 'GitHub',
-      key: 'github',
+      name: 'Chuttika',
+      key: 'chuttika',
       width: width1,
       bigWidth: width3,
-      image: GITHUB_IMAGE,
-      link: 'https://github.com/',
+      image: chuttika,
+      link: 'https://chuttika.netlify.app',
     },
-    {
-      name: 'Gitlab',
-      key: 'gitlab',
-      width: width1,
-      bigWidth: width3,
-      image: GITLAB_IMAGE,
-      link: 'https://about.gitlab.com/',
-    },
+    // {
+    //   name: 'GitHub',
+    //   key: 'github',
+    //   width: width1,
+    //   bigWidth: width3,
+    //   image: GITHUB_IMAGE,
+    //   link: 'https://github.com/',
+    // },
+    // {
+    //   name: 'Gitlab',
+    //   key: 'gitlab',
+    //   width: width1,
+    //   bigWidth: width3,
+    //   image: GITLAB_IMAGE,
+    //   link: 'https://about.gitlab.com/',
+    // },
     // {
     //   name: 'Facebook',
     //   key: 'facebook',
