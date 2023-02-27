@@ -93,7 +93,7 @@ body{
 }
 
 .container .video-list .vid .title{
-    color: #F9F9F9;
+    color: #e34c4c;
     font-size:17px ;
 }
 @media (max-width:991px){
