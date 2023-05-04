@@ -43,7 +43,7 @@ body{
 
 }
 .container .video-list{
-    background: #293462;
+    background: #fff;
     border-radius: 5px;
     height: 520px;
     overflow-y: scroll;
