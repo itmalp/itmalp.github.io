@@ -1,0 +1,66 @@
+{
+  "lastUpdated": "2026-09-25",
+  "tickerTitle": "LATEST OFFICIAL UPDATES & CIRCULARS",
+  "updates": [
+    {
+      "id": "up-001",
+      "date": "2026-09-25",
+      "badge": "URGENT",
+      "badgeType": "danger",
+      "title": "CMDRF Assistance Portal: Enhanced digital verification & real-time tracking now active.",
+      "category": "CMO/CMDRF",
+      "link": "https://app.cmo.kerala.gov.in/cmocmdrf/login.do",
+      "summary": "Applicants seeking CMDRF financial aid can now verify their document submission status instantly online."
+    },
+    {
+      "id": "up-002",
+      "date": "2026-09-24",
+      "badge": "NEW",
+      "badgeType": "success",
+      "title": "eDistrict Kerala: Expedited 3-day turnaround for Income, Caste & Nativity certificates in Alappuzha.",
+      "category": "eDistrict",
+      "link": "https://edistrict.kerala.gov.in/edportalsignin.jsp?lang=en",
+      "summary": "All Taluk offices in Alappuzha district have integrated fast-track digital signatures for citizen certificate requests."
+    },
+    {
+      "id": "up-003",
+      "date": "2026-09-22",
+      "badge": "REVENUE",
+      "badgeType": "info",
+      "title": "ReLIS Pokkuvaravu Online Mutation: Digital map verification enabled for Village Offices.",
+      "category": "ReLIS",
+      "link": "https://revenue.kerala.gov.in/",
+      "summary": "Land revenue mutation and Pokkuvaravu records can now be submitted and tracked directly through ReLIS."
+    },
+    {
+      "id": "up-004",
+      "date": "2026-09-20",
+      "badge": "NOTICE",
+      "badgeType": "warning",
+      "title": "RR Online: Direct payment facility integrated via e-Treasury Payment Gateway.",
+      "category": "RR Online",
+      "link": "https://rr.kerala.gov.in/",
+      "summary": "Citizens receiving revenue recovery notices can clear dues online securely without visiting the Collectorate."
+    },
+    {
+      "id": "up-005",
+      "date": "2026-09-18",
+      "badge": "IT MISSION",
+      "badgeType": "primary",
+      "title": "District IT Mission Alappuzha launches 100% paperless eOffice workflow drive.",
+      "category": "eOffice",
+      "link": "https://ealappuzha.kerala.gov.in/",
+      "summary": "Training and technical support expanded for all district level government offices in Alappuzha."
+    },
+    {
+      "id": "up-006",
+      "date": "2026-09-15",
+      "badge": "PORTAL",
+      "badgeType": "info",
+      "title": "LRD Portal: Land Revenue Department services centralized for citizen access.",
+      "category": "Land Revenue",
+      "link": "https://landrevenue.kerala.gov.in/",
+      "summary": "Access official land revenue circulars, tax payment details, and departmental contact directories."
+    }
+  ]
+}
