@@ -1,1 +1,8 @@
 /* /index.html 200
+
+/home/*  /home/:splat  200
+/learn/* /learn/:splat 200
+/ism/*   /ism/:splat   200
+/jdk/*   /jdk/:splat   200
+/kavach/* /kavach/:splat 200
+/msoffice/* /msoffice/:splat 200
